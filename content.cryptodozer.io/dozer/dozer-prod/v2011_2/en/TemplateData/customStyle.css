@@ -1,77 +1,77 @@
 /* Scalable canvas */
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #gameContainer {
-    width: 100%;
-    height: 100%;
-    background-color: #ffd906 !important;
+  width: 100%;
+  height: 100%;
+  background-color: #ffd906 !important;
 }
 
-#gameContainer>canvas {
-    width: 100%;
-    height: 100%;
+#gameContainer > canvas {
+  width: 100%;
+  height: 100%;
 }
 
 /* Logo */
 
 #loadingBox {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 35%;
-    text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+  text-align: center;
 }
 
 #logo {
-    display: inline-block;
-    width: 30%;
+  display: inline-block;
+  width: 30%;
 }
 
 #logoInner {
-    height: 0;
-    padding-bottom: 100%;
-    background: url("img_loading_s.png") no-repeat center center;
-    background-size: contain;
+  height: 0;
+  padding-bottom: 100%;
+  background: url("img_loading_s.png") no-repeat center center;
+  background-size: contain;
 }
 
 /* Progress bar */
 
 #bgBar {
-    position: relative;
-    margin: 5% auto 0;
-    overflow: hidden;
-    width: 50%;
-    bottom: 0;
-    border-radius: 100px;
-    background-color: rgb(133, 63, 0);
+  position: relative;
+  margin: 5% auto 0;
+  overflow: hidden;
+  width: 50%;
+  bottom: 0;
+  border-radius: 100px;
+  background-color: rgb(133, 63, 0);
 }
 
 #progressBar {
-    width: 0;
-    padding-bottom: 10%;
-    background-color: rgb(255, 132, 0);
-    transition: width 0.3s;
+  width: 0;
+  padding-bottom: 10%;
+  background-color: rgb(255, 132, 0);
+  transition: width 0.3s;
 }
 
 #loadingInfo {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 50%;
-    margin-top: -10px;
-    color: #ffffff;
-    font-size: 15px;
-    font-size: 2.5vw;
-    font-family: "Monaco", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    line-height: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-top: -10px;
+  color: #ffffff;
+  font-size: 15px;
+  font-size: 2.5vw;
+  font-family: "Monaco", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 20px;
 }

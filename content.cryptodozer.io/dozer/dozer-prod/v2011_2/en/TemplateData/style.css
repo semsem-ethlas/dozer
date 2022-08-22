@@ -1,3 +1,4 @@
+
 /****************************************
   ==== RESETS
 ****************************************/
@@ -34,6 +35,7 @@ canvas {
     clear: both;
 }
 
+
 /* Hides from IE-mac \*/
 
 * html .clear {
@@ -44,7 +46,9 @@ canvas {
     display: block;
 }
 
+
 /* End hide from IE-mac */
+
 
 /****************************************
   ==== LAYOUT
@@ -108,7 +112,7 @@ div.title {
     z-index: 10;
 }
 
-#gameContainer {
+#gameContainer{
     width: inherit;
     height: inherit;
 }
