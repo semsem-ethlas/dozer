@@ -21310,7 +21310,7 @@ cr.plugins_.com4j = function(runtime) {
             cr.logexport("[Construct 2] Can not found com4j, please import it.");
             cr.logexport("Try load it.");
             var ele = document.createElement('link');
-            ele.setAttribute("href", "//h5.4j.com/forgame/css/game.css");
+            ele.setAttribute("href", "./forgame/css/game.css");
             ele.setAttribute("rel", "stylesheet");
             document.getElementsByTagName("head")[0].appendChild(ele);
             var ele = document.createElement('script');
@@ -21319,7 +21319,7 @@ cr.plugins_.com4j = function(runtime) {
             document.getElementsByTagName("head")[0].appendChild(ele);
             var ele = document.createElement('script');
             ele.setAttribute("type", "text/javascript");
-            ele.setAttribute("src", "//h5.4j.com/forgame/js/com4japi.min.v1.1.js");
+            ele.setAttribute("src", "./forgame/js/com4japi.min.v1.1.js");
             ele.onload = function() {
                 self.runtime.trigger(cr.plugins_.com4j.prototype.cnds.IsLoadedAPI, self);
                 setTimeout(function() {
