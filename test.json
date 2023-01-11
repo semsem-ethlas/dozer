@@ -1,12 +1,12 @@
 [ 
  {
     "address": "0x09750ad360fdb7a2ee23669c4503c974d86d8694",
-    "amount": "44308475162",
+    "amount": "33",
     "date": "2020-11-17"
   },
   {
     "address": "0xfca19cf4a7eaff9a004e7f8ead61203cbb33200a",
-    "amount": "50000000",
+    "amount": "44308475162",
     "date": "2020-11-14"
   }
 ]
