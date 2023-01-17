@@ -1,12 +1,4 @@
 [ 
- {"blacklisted":[
-"0xd882cfc20f52f2599d84b8e8d58c7fb62cfe344b",
-"0x7F367cC41522cE07553e823bf3be79A889DEbe1B",
-"0x1da5821544e25c636c1417ba96ade4cf6d2f9b5a",
-"0xfca19cf4a7eaff9a004e7f8ead61203cbb33200a",
-"0x72a5843cc08275C8171E582972Aa4fDa8C397B2A"
- ]
- },
  {
     "address": "0x78430d9827d941509473108bfa3abda11a2af186",
     "amount": "33",
